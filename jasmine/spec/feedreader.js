@@ -86,18 +86,14 @@ $(function() {
         beforeEach(function(done) {
             loadFeed(0, function(){
                 firstFeed = feedContainer.innerHTML;
-                done();
-            });
-
-            loadFeed(1, function(){
-                secondFeed = feedContainer.innerHTML;
-                done();
+                loadFeed(1,done);
             });
         });
 
         /* test that ensures when a new feed is loaded by the loadFeed function that the content actually changes.*/
 
         it('check if the content actually changes with a new feed', function(done) {
+            secondFeed = feedContainer.innerHTML;
             expect(firstFeed).not.toBe(secondFeed);
             loadFeed(0, function() {
                 done();
