@@ -25,4 +25,10 @@ In this project you are given a web-based application that reads RSS feeds. The 
 [JavaScript Testing](https://www.udacity.com/course/javascript-testing--ud549). 
 
 # Contributing
-Starter code is from Udacity which has contained the first test "RSS Feeds"
+Starter code is from Udacity which contains the first test "RSS Feeds"
+
+# How to run tests
+* Click "Clone or download" / "Download ZIP".
+* Open the folder and open index.html in browser.
+* Test results are available at the bottom of the screen. Specs with passing tests show as green; specs with failing tests show as red.
+* open jasmine/spec/feedreader.js file to start editing the test suites.
