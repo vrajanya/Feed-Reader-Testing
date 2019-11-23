@@ -13,7 +13,9 @@ var allFeeds = [
         url: 'http://blog.udacity.com/feed'
     }, {
         name: 'CSS Tricks',
+//         url: 'http://feeds.feedburner.com/CssTricks'
         url: 'http://feeds.feedburner.com/CssTricks'
+        
     }, {
         name: 'HTML5 Rocks',
         url: 'http://feeds.feedburner.com/html5rocks'
